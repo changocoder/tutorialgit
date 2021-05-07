@@ -18,7 +18,7 @@ public class Persona {
     }
 
     public Persona() {
-
+        
     }
 
     public String getNombre() {
@@ -71,9 +71,6 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                '}';
+        return "Datos de la Persona:\nNombre: " + nombre + "\nApellido: " + apellido;
     }
 }
