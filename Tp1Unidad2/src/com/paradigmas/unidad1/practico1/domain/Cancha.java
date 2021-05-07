@@ -31,5 +31,9 @@ public class Cancha {
         this.capacidadEspectadores = capacidadEspectadores;
     }
 
+    @Override
+    public String toString() {
+        return "Datos de la Cancha:\nNombre: " + nombre + "\nCapacidad de espectadores: " + capacidadEspectadores;
+    }
 
 }
