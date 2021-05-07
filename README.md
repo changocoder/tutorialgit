@@ -11,8 +11,8 @@
 
 ---
 
-* Integrantes del grupo:
-	Cabral Renzo David Jesús          Mat: ELSI642 <br>
-	Roldan Sabattini Martín Nahuel	  Mat: ELSI620
+* Integrantes del grupo: <br>
+	-Cabral Renzo David Jesús          Mat: ELSI642 <br>
+	-Roldan Sabattini Martín Nahuel	  Mat: ELSI620
 
 
