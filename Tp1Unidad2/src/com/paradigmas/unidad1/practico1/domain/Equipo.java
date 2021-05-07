@@ -38,6 +38,13 @@ public class Equipo {
     public void setCiudad(String ciudad) {
         this.ciudad = ciudad;
     }
+
+    @Override
+    public String toString() {
+        return "Datos del Equipo:\nNombre: " + nombre + "\nCiudad: " + ciudad;
+    }
+    
+    
     
     
 
