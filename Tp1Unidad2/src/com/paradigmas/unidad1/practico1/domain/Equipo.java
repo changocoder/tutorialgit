@@ -14,6 +14,13 @@ public class Equipo {
 
     private Cancha cancha;
     
+    //Constructor
+    
+    public Equipo(String nombre, String ciudad){
+        this.nombre = nombre;
+        this.ciudad = ciudad;
+    }
+    
     //Getters and Setters
 
     public String getNombre() {
