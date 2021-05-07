@@ -10,7 +10,7 @@
 * Terminado estos puntos deben subir los cambios a sus repositorios y luego hacer una pull request.
 
 * Integrantes del grupo:
-	-Cabral Renzo David Jesús          -Mat: ELSI642
-	-Roldan Sabattini Martín Nahuel	   -Mat: ELSI620
+	Cabral Renzo David Jesús          Mat: ELSI642
+	Roldan Sabattini Martín Nahuel	  Mat: ELSI620
 
 
