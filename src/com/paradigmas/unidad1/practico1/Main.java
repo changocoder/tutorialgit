@@ -1,5 +1,6 @@
 package com.paradigmas.unidad1.practico1;
 
+import com.paradigmas.unidad1.practico1.domain.Equipo;
 import com.paradigmas.unidad1.practico1.domain.Persona;
 
 import java.util.Scanner;
@@ -20,6 +21,7 @@ public class Main {
         int cantidadPersonas;
         String auxNombre;
         String auxApellido;
+        String auxCiudad;
         int opcion=0;
         
         
@@ -32,7 +34,7 @@ public class Main {
         
         
 
-        
+        //CARGA DE PERSONAS
         System.out.print("Cantidad de personas que desea cargar: ");
         cantidadPersonas = sc.nextInt();
         Persona[] personas = new Persona[cantidadPersonas];
@@ -45,6 +47,19 @@ public class Main {
             System.out.print("Apellido : ");
             auxApellido = scLetras.nextLine();
             personas[i] = new Persona(auxNombre,auxApellido);
+        }
+        
+        
+        //CARGA DE EQUIPOS      
+        Equipo[] equipos = new Equipo[2];
+        
+        for(int i=0;i<2;i++){
+            System.out.println("\n Cargar equipo " +(i+1));
+            System.out.print("Nombre : ");
+            auxNombre = scLetras.nextLine();
+            System.out.print("Ciudad : ");
+            auxCiudad = scLetras.nextLine();
+            equipos[i] = new Equipo(auxNombre,auxCiudad);
         }
         
         
