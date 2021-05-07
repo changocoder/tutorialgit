@@ -9,8 +9,10 @@
     * Agregar canchas
 * Terminado estos puntos deben subir los cambios a sus repositorios y luego hacer una pull request.
 
+---
+
 * Integrantes del grupo:
-	Cabral Renzo David Jesús          Mat: ELSI642
+	Cabral Renzo David Jesús          Mat: ELSI642 <br>
 	Roldan Sabattini Martín Nahuel	  Mat: ELSI620
 
 
