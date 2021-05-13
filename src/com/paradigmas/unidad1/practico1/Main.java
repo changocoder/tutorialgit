@@ -1,5 +1,6 @@
 package com.paradigmas.unidad1.practico1;
 
+import com.paradigmas.unidad1.practico1.domain.Cancha;
 import com.paradigmas.unidad1.practico1.domain.Equipo;
 import com.paradigmas.unidad1.practico1.domain.Persona;
 
@@ -19,6 +20,8 @@ public class Main {
 
         // Declarar una Variable
         int cantidadPersonas;
+        int cantidadCanchas;
+        int capacidadCancha;
         String auxNombre;
         String auxApellido;
         String auxCiudad;
@@ -60,6 +63,21 @@ public class Main {
             System.out.print("Ciudad : ");
             auxCiudad = scLetras.nextLine();
             equipos[i] = new Equipo(auxNombre,auxCiudad);
+        }
+        
+        
+        //CARGA DE CANCHAS
+        System.out.print("\nCantidad de canchas que desea cargar: ");
+        cantidadCanchas = sc.nextInt();
+        Cancha[] canchas = new Cancha[cantidadCanchas];
+        
+        for(int i=0;i<cantidadCanchas;i++){
+            System.out.println("\n Cancha"+(i+1));
+            System.out.print("Nombre : ");
+            auxNombre = scLetras.nextLine();
+            System.out.print("Capacidad de personas : ");
+            capacidadCancha = sc.nextInt();
+            canchas[i]= new Cancha(auxNombre,capacidadCancha);
         }
         
         
