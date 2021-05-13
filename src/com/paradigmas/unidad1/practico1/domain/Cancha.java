@@ -25,6 +25,9 @@ public class Cancha {
         this.capacidadEspectadores = capacidadEspectadores;
     }
     
-    
+        @Override
+    public String toString() {
+        return  nombre + " -Capacidad: " + capacidadEspectadores + " personas";
+    }
     
 }

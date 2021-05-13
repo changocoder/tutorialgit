@@ -16,6 +16,7 @@ public class Persona {
         this.nombre = nombre;
         this.apellido = apellido;
     }
+    
 
     public Persona() {
 
@@ -71,9 +72,6 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                '}';
+        return  nombre + " " + apellido;
     }
 }

@@ -81,15 +81,16 @@ public class Main {
         }
         
         
+        while(opcion!=5){
          //MENU
         System.out.println(" ");
         System.out.println(" ");
         System.out.println("ELIJA LA OPERACION DESEADA :");
         System.out.println(" ");
-        System.out.println("1.Cargar Personas");
-        System.out.println("2.Cargar Equipos");
-        System.out.println("3.Cargar Canchas");
-        System.out.println("4.Mostrar datos cargados");
+        System.out.println("1.Mostrar Personas cargadas");
+        System.out.println("2.Mostrar Equipos cargados");
+        System.out.println("3.Mostrar Canchas cargadas");
+        System.out.println("4.Mostrar todos los datos cargados");
         System.out.println("5.Salir");
         System.out.println(" ");
         opcion = sc.nextInt();
@@ -99,10 +100,77 @@ public class Main {
         System.out.println(" ");
         System.out.println(" ");
         
+        switch(opcion){
+            case 1:{
+                    System.out.println("---------PERSONAS CARGADAS---------");
+                    System.out.println(" ");
+                        for(int i=0;i<cantidadPersonas;i++){
+                       System.out.println(personas[i].toString());
+                   }
+                    
+                break;
+            }
+            case 2:{
+                    System.out.println("---------EQUIPOS CARGADAS---------");
+                    System.out.println(" ");
+                        for(int i=0;i<2;i++){
+                       System.out.println(equipos[i].toString());
+                   }   
+                break;
+            }
+        case 3:{
+                    System.out.println("---------CANCHAS CARGADAS---------");
+                    System.out.println(" ");
+                        for(int i=0;i<cantidadCanchas;i++){
+                       System.out.println(canchas[i].toString());
+                   } 
+               
+                break;
+            }
+    
+        case 4:{
+                    System.out.println("---------DATOS CARGADOS---------");
+                    System.out.println(" ");
+                    
+                    System.out.println("---------PERSONAS CARGADAS---------");
+                    System.out.println(" ");
+                    for(int i=0;i<cantidadPersonas;i++){
+                       System.out.println(personas[i].toString());
+                   }
+                    
+                    System.out.println(" ");
+                    System.out.println("---------EQUIPOS CARGADAS---------");
+                    System.out.println(" ");
+                        for(int i=0;i<2;i++){
+                       System.out.println(equipos[i].toString());
+                   }
+                        
+                    System.out.println(" ");
+                    System.out.println("---------CANCHAS CARGADAS---------");
+                    System.out.println(" ");
+                        for(int i=0;i<cantidadCanchas;i++){
+                       System.out.println(canchas[i].toString());
+                   }
+                   
+                    
+        }
+        break;
+        
+        default:{
+               System.out.println("¡Hasta pronto!");
+               break; 
+            }
+        }
 
 
     
     
+    
+    
+    
+    
+        }
+   
     
     
     
